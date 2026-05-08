@@ -2,10 +2,8 @@
 name: User Story
 about: This template is for creating user stories
 title: ''
-labels: ''
 estimates: ''
 assignees: ''
-
 ---
 
 **As a** [role]  
@@ -16,6 +14,9 @@ assignees: ''
  * [document what you know]
    
  ### Acceptance Criteria  
- **Given** [some context]  
-  **When** [certain action is taken]  
-  **Then** [the outcome of action is observed]
+ 
+ ```gherkin
+ Given [some context]  
+ When [certain action is taken]  
+ Then [the outcome of action is observed]
+ ```
